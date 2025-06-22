@@ -1,0 +1,47 @@
+@media only screen and (max-width: 800px){
+    .u-information {
+        width: 75%;
+    }
+.card-1,.card{
+    width: 32%;
+}
+    .u-center-title-3 {
+        width: 69%;
+        padding: 0 25px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .menu-bar{
+        display: none;
+    }
+    .mobile-icon{
+        display: block;
+        text-align: center;
+    }
+    .card-1,.card{
+        width: 48%;
+    }
+    .u-information {
+        width: 100%;
+    }
+    .u-center-title-3 {
+        width: 100%;
+        padding: 0 14px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .title {
+        font-size: 41px;
+    }
+    .card-1, .card {
+        width: 97%;
+
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+}

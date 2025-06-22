@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.start{
+    padding: 40px 0;
+    background-color:#F9F6EE ;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 15px 0;
+    z-index: 1;
+}
+.mobile-icon{
+    font-size: 30px;
+    display: none;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 5px ;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 20px 0;
+}
+.menu-bar li:first-child a {
+    color: #F1B48C;
+}
+.menu-bar{
+
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: black;
+        padding: 10px 10px;
+    }
+}
+.u-section{
+    background-color:#F9F6EE ;
+}
+.u-center{
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/vegetables-set-left-black-slate.jpg");
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.u-center-text {
+    width: 200px;
+    height: 200px;
+    background-color: #99E54D;
+    border-radius: 100px;
+    text-align: center;
+
+}
+.u-information{
+    width: 50%;
+}
+.text-1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.text-2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sample{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.title{
+
+    font-size: 60px;
+    color: white;
+}
+.btn{
+    background-color:#F1AE0E;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+.u-section-2{
+    background-color:#F9F6EE ;
+    padding: 40px 0;
+}
+.title-1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.text-align{
+    text-align: center;
+}
+
+.img-size{
+    width: 100%;
+    height: 169px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+.card{
+    width: 24%;
+    p{
+        font-size: 17px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    img{
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+
+}
+.u-section-3{
+    background-color:#86C944 ;
+    padding: 40px 0;
+}
+.u-center-text-2{
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 70px 0;
+
+
+
+
+
+
+    p{
+        text-align: center;
+    }
+}
+.title-text-2{
+    font-size: 45px;
+    text-align: center;
+    margin: 23px 0 28px;
+    /* padding: 70px 0 10px; */
+}
+.phone{
+    text-align: center;
+
+}
+.call-to-action {
+
+    a {
+        padding: 0 20px;
+
+        color: #F1AE0E;
+
+        font-size: 30px;
+
+        text-decoration: none;
+
+        align-items: center;
+    }
+}
+.u-center-2{
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/fresh-salad-with-turkey-eggs-vegetables.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 60px; */
+}
+.main{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-text{
+    color: white;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.u-center-title-3{
+    width: 57%;
+}
+.sample{
+    font-size: 15px;
+}
+.u-section-4{
+    background-color:#F9F6EE ;
+    padding: 40px 0;
+}
+.card-1{
+    width: 23%;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+.img-size-2{
+    width: 84%;
+    height: 150px;
+    object-fit: cover;
+}
+.post-1{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.bg-color{
+    background-color: #86C944;
+}
+.ads{
+    width: 100%;
+    height:100vh;
+    background-color: rgba(255, 0, 0, 0.58);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ads-container{
+        max-width: 600px;
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+    }
+}
+.d-none{
+    display: none!important;
+}
+.scroll-top{
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    i{
+        font-size: 30px;
+        padding:16px 20px;
+        background-color: #F9F6EE;
+        border-radius: 50%;
+        color: #F1AE0E;
+    }
+}
+.info-ads{
+    width: 100%;
+    height: 100%;
+}
+.info-ads:hover{
+    color: #F1AE0E;
+}
