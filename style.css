@@ -86,7 +86,7 @@ header{
     font-weight: bold;
     color: white;
     padding: 20px 0;
-    text-transform: uppercase;
+
 }
 .title{
 
@@ -136,7 +136,6 @@ header{
         height: 160px;
         object-fit: cover;
     }
-
 }
 .u-section-3{
     background-color:#86C944 ;
@@ -147,11 +146,6 @@ header{
     width: 100%;
     border-radius: 30px;
     padding: 70px 0;
-
-
-
-
-
 
     p{
         text-align: center;
@@ -234,6 +228,25 @@ header{
     text-transform: uppercase;
     margin: 20px 0;
 }
+.u-center-3{
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+}
+.u-section-5{
+    background-color:#F1AE0E ;
+    padding: 40px 0;
+}
+
 .bg-color{
     background-color: #86C944;
 }
@@ -276,4 +289,93 @@ header{
 }
 .info-ads:hover{
     color: #F1AE0E;
+}
+.btn-effect{
+    transition: 0.5s;
+}
+.btn-effect:hover{
+    background-color: #377116;
+    color: white;
+}
+.align-items{
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.email{
+    padding: 20px 15px;
+    border: 2px solid #000;
+    border-radius: 25px;
+
+    font-size: 16px;
+}
+.u-center-4{
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+}
+.u-center-1{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.color{
+    color: black;
+}
+.u-contact{
+    width: 50%;
+    color:black
+}
+.flex-direct{
+    flex-direction: column;
+}
+.charts{
+    width: 50%;
+    margin:20px 0;
+    line-height: 1.8;
+}
+.contact-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-text{
+    font-weight: bold;
+}
+.adress{
+    color: #F1AE0E;
+    font-weight: bold;
+}
+footer{
+    background-color: #333333 ;
+    padding: 40px 0;
+}
+.footer{ p{
+        text-align: center;
+        color: white;
+        font-size: 16px;
+
+        margin: 40px 0;
+    }
 }

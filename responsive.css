@@ -1,4 +1,7 @@
 @media only screen and (max-width: 800px){
+    .u-center-1{
+        width: 100%;
+    }
     .u-information {
         width: 75%;
     }
@@ -8,6 +11,12 @@
     .u-center-title-3 {
         width: 69%;
         padding: 0 25px;
+    }
+    .u-2{
+        width: 100%;
+    }
+    .u-information {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 600px){
@@ -28,6 +37,8 @@
         width: 100%;
         padding: 0 14px;
     }
+    .charts{
+    width: 100%;}
 }
 
 @media only screen and (max-width: 470px) {
