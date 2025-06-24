@@ -1,9 +1,18 @@
 @media only screen and (max-width: 800px){
-    .u-center-1{
+    /*.u-center-4{*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.charts{*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.u-center-1{*/
+    /*    width: 100%;*/
+    /*}*/
+    .u-information {
         width: 100%;
     }
-    .u-information {
-        width: 75%;
+    .flex-direct{
+        width: 100%;
     }
 .card-1,.card{
     width: 32%;
@@ -12,12 +21,8 @@
         width: 69%;
         padding: 0 25px;
     }
-    .u-2{
-        width: 100%;
-    }
-    .u-information {
-        width: 100%;
-    }
+
+
 }
 @media only screen and (max-width: 600px){
     .menu-bar{
@@ -30,15 +35,15 @@
     .card-1,.card{
         width: 48%;
     }
-    .u-information {
-        width: 100%;
-    }
-    .u-center-title-3 {
-        width: 100%;
-        padding: 0 14px;
-    }
-    .charts{
-    width: 100%;}
+    /*.u-information {*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.u-center-title-3 {*/
+    /*    width: 100%;*/
+    /*    padding: 0 14px;*/
+    /*}*/
+    /*.charts{*/
+    /*width: 100%;}*/
 }
 
 @media only screen and (max-width: 470px) {
@@ -53,6 +58,16 @@
             height: auto;
             object-fit: contain;
         }
+    }
+    .u-center-title-3 {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .u-center-3{
+        padding: 0;
+    }
+    .charts{
+        margin: 0;
     }
 
 }
