@@ -154,7 +154,7 @@ header{
     background-color: white;
     width: 100%;
     border-radius: 30px;
-    padding: 70px 0;
+    padding: 40px 0;
 
     p{
         text-align: center;
@@ -462,6 +462,7 @@ footer{
 .image{
     width: 50%;
     padding: 0 10px;
+    margin: 80px 0;
 
 
     img{
@@ -503,4 +504,31 @@ footer{
 }
 .bg-green{
     background-color: #99E54D;
+}
+.btn-1{
+    background-color: #99E54D;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+.about{
+    margin:30px 0
+}
+.title-mission{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-mission{
+    font-size: 50px;
+    font-weight: bold;
+}
+.article-mission{
+    font-size: 18px;
+}
+.text-align{
+    text-align: center;
 }

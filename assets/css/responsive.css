@@ -8,6 +8,12 @@
     /*.u-center-1{*/
     /*    width: 100%;*/
     /*}*/
+    .about{
+        width:70%;
+    }
+    .image{
+        width: 63%;
+    }
     .u-information {
         width: 100%;
     }
@@ -25,6 +31,12 @@
 
 }
 @media only screen and (max-width: 600px){
+    .image{
+        width: 100%;
+    }
+    .about {
+        width:100%;
+    }
     .menu-bar{
         display: none;
     }
@@ -47,6 +59,12 @@
 }
 
 @media only screen and (max-width: 470px) {
+    .about{
+        width:100%;
+    }
+    .image{
+        width: 100%;
+    }
     .title {
         font-size: 41px;
     }
