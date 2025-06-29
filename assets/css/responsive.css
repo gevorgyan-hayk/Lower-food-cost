@@ -55,6 +55,11 @@
     .card-2{
         width: 48%;
     }
+    .contact-us {
+        .container, .container-sm {
+            padding: 30px 10px;
+        }
+    }
 }
 @media only screen and (max-width: 600px){
     .image{
@@ -63,6 +68,7 @@
     .about {
         width:100%;
     }
+
     .menu-bar{
         display: none;
     }
@@ -83,6 +89,15 @@
     }
     .btn-submit {
         width: 100%;
+    }
+    .contact-us{
+        .form-field{
+            width: 100%;
+
+            label{
+                margin: 2px 0;
+            }
+        }
     }
 }
 
